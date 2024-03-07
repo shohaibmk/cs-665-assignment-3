@@ -17,13 +17,10 @@ https://github.com/shohaibmk/cs-665-assignment-3
 
 For each assignment, please answer the following:
 
-- Explain the level of flexibility in your implementation, including how new object types can
-be easily added or removed in the future.
-- Discuss the simplicity and understandability of your implementation, ensuring that it is
-easy for others to read and maintain.
-- Describe how you have avoided duplicated code and why it is important.
-- If applicable, mention any design patterns you have used and explain why they were
-chosen.
+- Fexibility: The implementation provides a high level of flexibility. New customer types can be easily added by creating a new concrete subclass of the Customer class and implementing the required behavior. Similarly, existing customer types can be modified or removed without affecting the core functionality of the system.
+- Simplicity and Understandability: The implementation follows a clear and straightforward structure, making it easy for others to read and understand. Each class has a specific responsibility, and the naming conventions are clear, which helps in understanding the purpose of each component.
+- Avoidance of Duplicated Code: The implementation avoids duplicated code by leveraging inheritance and polymorphism. Common functionalities are implemented in the base Customer class, while specific behaviors are implemented in the concrete subclasses.
+- Design Patterns: The implementation uses the Observer pattern to achieve loose coupling between the EmailGenerator (subject) and the Customer classes (observers). This pattern allows for efficient communication between the subject and observers without them being tightly coupled.
 
 
 # Maven Commands
