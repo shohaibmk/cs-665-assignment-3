@@ -15,8 +15,6 @@ https://github.com/shohaibmk/cs-665-assignment-3
 # Implementation Description 
 
 
-For each assignment, please answer the following:
-
 - Fexibility: The implementation provides a high level of flexibility. New customer types can be easily added by creating a new concrete subclass of the Customer class and implementing the required behavior. Similarly, existing customer types can be modified or removed without affecting the core functionality of the system.
 - Simplicity and Understandability: The implementation follows a clear and straightforward structure, making it easy for others to read and understand. Each class has a specific responsibility, and the naming conventions are clear, which helps in understanding the purpose of each component.
 - Avoidance of Duplicated Code: The implementation avoids duplicated code by leveraging inheritance and polymorphism. Common functionalities are implemented in the base Customer class, while specific behaviors are implemented in the concrete subclasses.
